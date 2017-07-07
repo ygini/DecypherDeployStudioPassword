@@ -10,6 +10,10 @@
 
 @interface ViewController : NSViewController
 
+@property NSString *key;
+@property NSString *base64secret;
+@property NSString *cleartext;
+@property NSString *lastupdated;
 
 @end
 
